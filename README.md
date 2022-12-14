@@ -62,12 +62,12 @@ developing your own process.
 
 - Add a new toy when the toy form is submitted
 
-  - How I debugged:
+  - How I debugged: Looked at the error within the Rails console, which showed a typo within the create method in the controller, went to the controller and corrected the typo.
 
 - Update the number of likes for a toy
 
-  - How I debugged:
+  - How I debugged: Looked at the error that was being displayed in the browser (client), and determined that no JSON was being returned to the frontend. Fixed error by correcting the update method on the controller and having it return JSON containing the updated object.
 
 - Donate a toy to Goodwill (and delete it from our database)
 
-  - How I debugged:
+  - How I debugged: Looked at the error within the Rails console, which showed that there was no route defined for delete/destroy within the routes.rb file. Added route in routes.rb file
